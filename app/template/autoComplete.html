@@ -1,0 +1,8 @@
+<div class="dropdown">
+	<input type="text" placeholder="Enter" [(ngModel)]="query" (keyup)="doneTyping($event)"/>
+    
+	<ul class="dropdown-menu">
+	 	<li *ngFor="#row of results;" (click)="selectItem(row)"><a href="#">{{row[displayField]}}</a></li>
+	</ul> 
+</div>
+
