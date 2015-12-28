@@ -19,6 +19,7 @@ npm install
 ## Building and Runing the server
 
 ```
+npm install webpack-dev-server -g
 webpack-dev-server
 ```
 * Access Demo page
