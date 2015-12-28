@@ -28,3 +28,7 @@ http://localhost:8080/webpack-dev-server/index.html
 ```
 
 ![Alt text](images/demo1.PNG?raw=true)
+
+## Contribution
+
+Suggestions and pull requests are welcome
