@@ -26,3 +26,5 @@ webpack-dev-server
 ```
 http://localhost:8080/webpack-dev-server/index.html
 ```
+
+![Alt text](angular2-typeahead/images/demo1.PNG?raw=true)
