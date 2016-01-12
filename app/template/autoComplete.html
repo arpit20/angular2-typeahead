@@ -1,8 +1,9 @@
 <div class="dropdown">
-	<input type="text" placeholder="Enter" [(ngModel)]="query" (keyup)="doneTyping($event)"/>
+	<input type="text"  placeholder="Enter" [(ngModel)]="query"/>
     
 	<ul class="dropdown-menu">
-	 	<li *ngFor="#row of results;" (click)="selectItem(row)"><a href="#">{{row[displayField]}}</a></li>
+	 	<li *ngFor="#row of results;" (click)="selectItem(row)"><a href="#">{{row}}</a></li>
+	 	<li *ngIf="!results || results.length == 0" class="has-error">No Results Found</li>
 	</ul> 
 </div>
 
